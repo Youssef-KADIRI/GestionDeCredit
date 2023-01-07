@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.projet.projetcontrolle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetControlle">
+        <activity
+            android:name=".CreditDialog"
+            android:exported="false" />
+        <activity
+            android:name=".BarChart"
+            android:exported="false" />
+        <activity
+            android:name=".ListeProduitCredit"
+            android:exported="false" />
+        <activity
+            android:name=".ListeClientCredit"
+            android:exported="false" />
+        <activity
+            android:name=".DetailProduitVente"
+            android:exported="false" />
+        <activity
+            android:name=".ListeProduitDispo"
+            android:exported="false" />
+        <activity
+            android:name=".ListeProduit"
+            android:exported="false" />
+        <activity
+            android:name=".CreateProduit"
+            android:exported="false" />
+        <activity
+            android:name=".AcceuilProduit"
+            android:exported="false" />
+        <activity
+            android:name=".DetailCategorie"
+            android:exported="false" />
+        <activity
+            android:name=".ListeCategorie"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCategorie"
+            android:exported="false" />
+        <activity
+            android:name=".AcceuilCategorie"
+            android:exported="false" />
+        <activity
+            android:name=".DetailClient"
+            android:exported="false" />
+        <activity
+            android:name=".ListeClient"
+            android:exported="false" />
+        <activity
+            android:name=".CreateClient"
+            android:exported="false" />
+        <activity
+            android:name=".AcceuilClient"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

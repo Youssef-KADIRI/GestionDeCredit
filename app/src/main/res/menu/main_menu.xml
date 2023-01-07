@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Homme" />
+
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/client"
+            android:title="Client" />
+
+        <item
+            android:id="@+id/nav_categorie"
+            android:icon="@drawable/categorie"
+            android:title="Catégorie" />
+
+        <item
+            android:id="@+id/nav_produit"
+            android:icon="@drawable/produit"
+            android:title="Produit" />
+
+        <item
+            android:id="@+id/nav_vente"
+            android:icon="@drawable/vente"
+            android:title="Vente" />
+
+        <item
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/ic_cc"
+            android:title="Crédit" />
+
+        <item
+            android:id="@+id/nav_statistique"
+            android:icon="@drawable/barchart"
+            android:title="Statistique" />
+    </group>
+</menu>
